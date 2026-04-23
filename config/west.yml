@@ -1,14 +1,14 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: moergo-sc
+      url-base: https://github.com/moergo-sc
     - name: zzeneg
       url-base: https://github.com/zzeneg
     - name: srwi
       url-base: https://github.com/srwi
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: moergo-sc
       revision: main
       import: app/west.yml
     - name: zmk-raw-hid
